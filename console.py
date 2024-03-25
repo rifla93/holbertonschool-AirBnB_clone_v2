@@ -137,7 +137,7 @@ class HBNBCommand(cmd.Cmd):
             elif "." in value:
                 value = float(value)
             else:
-                value - int(value)
+                value = int(value)
                                 
             setattr(new_instance, key, value)
 
